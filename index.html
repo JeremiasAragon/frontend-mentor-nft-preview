@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <figure class="card">
+        <div class="card__img-box">
+          <img
+            src="images/image-equilibrium.jpg"
+            alt="Equilibrium coin illustration"
+            class="card__img"
+          />
+
+          <div class="overlay">
+            <img src="images/icon-view.svg" alt="View icon" />
+          </div>
+        </div>
+
+        <div class="card__body">
+          <h4 class="card__title">Equilibrium #3429</h4>
+          <p class="card__text">
+            Our Equilibrium collection promotes balance and calm
+          </p>
+          <div class="flex-container">
+            <p class="card__info-text">
+              <img src="images/icon-ethereum.svg" alt="Ethereum icon" />
+              <span class="eth-amount">0.041ETH</span>
+            </p>
+            <p class="card__info-text">
+              <img src="images/icon-clock.svg" alt="Clock icon" />
+              <span class="remaining-days">3 days left</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card__footer">
+          <img src="images/image-avatar.png" alt="Jules Wyvern avatar" />
+          <p class="card__author">Creation of <span>Jules Wyvern</span></p>
+        </div>
+      </figure>
+    </main>
+  </body>
+</html>
