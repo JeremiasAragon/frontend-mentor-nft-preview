@@ -16,11 +16,11 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Screenshot
 
-![](./images/screenshot.png)
+![](./images/screenshoot.png)
 
 ### Links
 
-- Live Site URL: [QR Code challenge - Netlify](https://qr-challenge-fm.netlify.app/)
+- Live Site URL: [NFT Preview challenge - Netlify](https://nft-preview-jeremias.netlify.app/)
 
 ## My process
 
